@@ -14,15 +14,15 @@ const CustomButton = ({ onPress, title, buttonStyle, textStyle }) => {
   );
 };
 
-const styles = StyleSheet.create({
-  button: {
+// const styles = StyleSheet.create({
+//   button: {
     
-  },
-  text: {
-    color: 'white',
-    fontSize: 16,
-  },
-});
+//   },
+//   text: {
+//     color: 'white',
+//     fontSize: 16,
+//   },
+// });
 
 function LoginScreen({ navigation }) {
   return (
