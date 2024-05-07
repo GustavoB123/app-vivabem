@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, View, Image, Text, TextInput, TouchableOpacity, ImageBackground } from 'react-native';
-// import { estilo }  from './src/estilo/style'
+import { estilo }  from '../../estilo/style'
 
 export default function home({ navigation }) {
     return (
@@ -20,7 +20,7 @@ export default function home({ navigation }) {
         <CustomButton title='UPGRADE NO PLANO' buttonStyle={estilo.btnPlano} textStyle={estilo.btnTPlano}/>
         <view style={estilo.dashFooter}>
           <view style={estilo.dashIcon}>
-            <Image source={require('./img/icons/iconExe.svg')} style={{width: 40, height: 40, borderRadius: 50 }}/>
+            <Image source={require('../../img/icons/iconExe.svg')} style={{width: 40, height: 40, borderRadius: 50 }}/>
             <Text>Exercícios</Text>
           </view>
         </view>

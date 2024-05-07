@@ -15,8 +15,8 @@ export default function Routes(){
 
     return (
     <Tab.Navigator>
-        <Tab.Screen name="Login" component={login} options={{tabBarIcon: ({size, color}) => (<Entypo name='user' size={size} color={color} />)}}/>
-        <Tab.Screen name="Início" component={home} options={{tabBarIcon: ({size, color}) =>( <Entypo name='user' size={size} color={color}/>) }}/>
+        <Tab.Screen name="Login" component={login} options={{tabBarIcon: ({size, color}) => (<Entypo name='user' size={size} color={color} />)}} />
+        <Tab.Screen name="Início" component={home} options={{}}/>
     </Tab.Navigator>
     );
 }
