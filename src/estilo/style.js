@@ -105,6 +105,7 @@ export const estilo = {
         justifyContent: 'center',
         backgroundColor: '#FFC500',
         marginTop: 49,
+        marginBottom: 30,
       },
   
       btnTPlano: {
