@@ -19,7 +19,7 @@ export default function login({navigation}) {
         <Image style={estilo.img} source={require('../../img/logoVivaBem.svg')} />
         <TextInput style={estilo.input} placeholder='Email' />
         <TextInput secureTextEntry={true} style={estilo.input} placeholder='Senha' />
-        <CustomButton title="Entrar" onPress={() => navigation.navigate('Inicio')} buttonStyle={estilo.btn} textStyle={estilo.btnTexto} />
+        <CustomButton title="Entrar" onPress={() => navigation.navigate('Home')} buttonStyle={estilo.btn} textStyle={estilo.btnTexto} />
         <CustomButton title="Esqueci a senha" onPress={() => navigation.navigate('')} buttonStyle={estilo.btn2} textStyle={estilo.btn2Texto} />
         </ImageBackground>
       </View>
